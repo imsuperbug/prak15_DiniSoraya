@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.web.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="prak15_dinisoraya.FormInputController">
+   <children>
+      <Label layoutX="231.0" layoutY="44.0" prefHeight="27.0" prefWidth="139.0" text="Data Mahasiswa">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="58.0" layoutY="159.0" prefHeight="27.0" prefWidth="126.0" text="Nama Lengkap" />
+      <Label layoutX="57.0" layoutY="107.0" text="NPM" />
+      <Label layoutX="58.0" layoutY="210.0" text="Alamat" />
+      <Button fx:id="btnTambah" layoutX="447.0" layoutY="288.0" mnemonicParsing="false" onAction="#sendData" text="Data Baru" />
+      <TextField fx:id="lblNpm" layoutX="231.0" layoutY="101.0" />
+      <TextField fx:id="lblNama" layoutX="231.0" layoutY="153.0" />
+      <TextField fx:id="lblAlamat" layoutX="231.0" layoutY="204.0" />
+   </children>
+</AnchorPane>

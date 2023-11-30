@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="prak15_dinisoraya.KeluaranController">
+   <children>
+      <Label layoutX="231.0" layoutY="44.0" prefHeight="27.0" prefWidth="139.0" text="Data Mahasiswa">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="58.0" layoutY="159.0" prefHeight="27.0" prefWidth="126.0" text="Nama Lengkap" />
+      <Label layoutX="57.0" layoutY="107.0" text="NPM" />
+      <Label fx:id="lblNama" layoutX="231.0" layoutY="159.0" text="Nama" />
+      <Label fx:id="lblNpm" layoutX="231.0" layoutY="107.0" text="NPM" />
+      <Label layoutX="58.0" layoutY="210.0" text="Alamat" />
+      <Label fx:id="lblAlamat" layoutX="231.0" layoutY="210.0" text="Alamat" />
+      <Button fx:id="btnNew" layoutX="447.0" layoutY="288.0" mnemonicParsing="false" onAction="#openForm" text="Data Baru" />
+   </children>
+</AnchorPane>
